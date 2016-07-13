@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/slider.css" rel="stylesheet" type="text/css" />
+    <link href="css/css_slider1/default.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/css_slider1/nivo-slider.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/hover.css" rel="stylesheet" type="text/css" />
+    <link href="css/columns.css" rel="stylesheet" type="text/css" />
+    <link href="css/hover_image.css" rel="stylesheet" type="text/css" />
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+    <link href="css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="css/widgets.css" rel="stylesheet" type="text/css" />
+    <link href="css/light.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/stimenu.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+    <script type="text/javascript" src="js/ie.html5.js"></script>
+
+
+    <!-- JQUERY -->
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+    <!-- JQUERY_UI -->
+    <script type="text/javascript" src="js/jquery.ui.core.js"></script>
+
+    <!-- SLIDER -->
+    <script type="text/javascript" src="js/jquery.cycle.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $("#scroller .items").cycle({ 
+                fx: 'scrollUp'  
+            });
+        });
+    </script>
+
+    <!-- SLIDER_TIMELINE -->
+    <script type="text/javascript" src="js/jquery.timeline.min.js"></script>
+    <script type="text/javascript">
+
+    $(window).load(function() {
+        // dark
+        $('.timelineLight').timeline({
+            openTriggerClass : '.read_more',
+            startItem : '15/08/2012'
+        });
+    });
+    </script>
+
+     
+    <!-- MENU -->
+    <script type="text/javascript" src="js/menu.js"></script>   
+    <script type="text/javascript" src="js/jquery.iconmenu.js"></script>
+
+    <!-- SERVICES -->
+    <script type="text/javascript" src="js/jquery.quicksand.js"></script>
+    <script type="text/javascript" src="js/services.js"></script>
+    <!-- HOVER_BUTTON -->
+    <script type="text/javascript" src="js/hover.js"></script>
+    <script type="text/javascript" src="js/buttons.js"></script>
+
+
+    <!-- IMAGE -->
+    <script src="js/image.js" type="text/javascript"> </script>
+    <script src="js/lightbox.js" type="text/javascript"></script>
+    <script src="js/jquery.capSlide.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
+    
+    <link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+<!--
+    <script src="lib/jquery-1.7.2.min.js" type="text/javascript"></script>  -->
+
+    <style type="text/css">
+        body{
+            width: 1250px;
+        }
+        #line-chart {
+            height:300px;
+            width:800px;
+            margin: 0px auto;
+            margin-top: 1em;
+        }
+        .brand { font-family: georgia, serif; }
+        .brand .first {
+            color: #ccc;
+            font-style: italic;
+        }
+        .brand .second {
+            color: #fff;
+            font-weight: bold;
+        }
+        .header{
+          height: 120px;
+          background: #fff;
+        }
+        .video_part{
+            height: 400px;
+            padding-top: 20px;
+            width: 1030px;
+            margin: 0 auto;
+
+        }
+        .navbar-inner li{
+            line-height:30px;
+            font-size: 18px;
+            font-family: '微软雅黑';
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .mainbody{
+          width: 1030px;
+          margin: 0 auto;
+          padding-top: 20px;
+          
+          text-align: center;
+        }
+        .about_t{
+            margin: 0 0 30px 0;
+            font-size: 50px;
+            font-weight: 300;
+            color: #444;
+            text-transform: uppercase;
+            position: relative;
+            display: block;
+            padding-bottom: 20px;
+            line-height: 1.5;
+        }
+        .row h2:after{
+          content: "";
+          position: absolute;
+          display: block;
+          width: 340px;
+          height: 2px;
+          background: #888888;
+          left: 50%;
+          margin-left: -170px;
+          bottom: 0;
+        }
+        #subrow{
+          text-align: center;
+          width: 800px;
+          margin: 0 auto;
+        }
+        .row{
+          width: 800px;
+          height: 320px;
+          margin: 0 auto;
+        }
+        .row2{
+          width: 800px;
+          margin: 0 auto;
+          height: 420px;
+        }
+        .part{
+          width: 376px;
+          height:196px;
+          margin: 5px 10px;
+          background: #fff; 
+          float: left;
+          border: 2px solid #F2F2F2
+        }
+        .p_text{
+          padding: 20px 10px 10px 10px;
+          text-align: center;
+          width: 356px;
+          height: 165px;
+          font-weight: 300;
+        }
+        .p_text p{
+          margin-top: 20px;
+          margin-left: 30px;
+          margin-right: 30px;
+          color: #b3b3b3;
+        }
+    </style>
+
+  </head>
+
+
+  <body>  
+    <div class="content">
+        <div class="mainbody">
+            <div class="row">
+                <h2 class="about_t">重庆影像资料档案库</h2>
+                <div id="subrow">
+                    <p style="font-weight: 300;line-height: 1.5;color: #929292;font-size:20px;text-align:left;">
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;重庆广播电视集团（总台）——影像资料档案库涵盖上世纪八十年代至今的珍贵历史影像，
+                      这些延续着时代的影像呈现，完整地记录了各行各业各领域的发展轨迹、变迁历程、建设成就，是保存
+                      着各级政府、企事业单位、社会机构团体历史演变中珍贵镜头画面的时光银行。
+                    </p>
+                </div>
+            </div>
+            <div class="row2">
+              <div class="part">
+                <div class="p_text">
+                  <h3 style="color: #444;">最历史</h3>
+                  <p>库藏重庆几十年变迁的珍贵影像资料</p>
+                </div>
+              </div>
+              <div class="part">
+                <div class="p_text">
+                  <h3 style="color: #444;">最前沿</h3>
+                  <p>航拍、延时、三维特效等高品质影像资料</p>
+                </div>
+              </div>
+              <div class="part">
+                <div class="p_text">
+                  <h3 style="color: #444;">最全面</h3>
+                  <p>涵盖各行各业各领域，30万小时海量影像</p>
+                </div>
+              </div>
+              <div class="part">
+                <div class="p_text">
+                  <h3 style="color: #444;">最专业</h3>
+                  <p>广电专业影像设备和管理团队</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $("[rel=tooltip]").tooltip();
+        $(function() {
+            $('.demo-cancel-click').click(function(){return false;});
+        });
+    </script>
+    
+  </body>
+</html>
+
+
