@@ -60,7 +60,7 @@ h3.image_roll_name {
 }
 
 .image_roll_zoom {
-	display:block;
+	display:none;
 	width:100%;
 	height:100%;
 	position:absolute;
