@@ -2,7 +2,8 @@ body{
     width: 1250px;
 }
 strong{
-  font-size: 10px;
+  font-size: 14px;
+  font-family: '微软雅黑';
 }
 #line-chart {
     height:300px;
@@ -69,4 +70,7 @@ strong{
     transition:0.3s;
     margin-top: 25px;
     box-shadow: 1px 1px 40px #7D7070;
+}
+.picdes{
+    padding-top: 5px;
 }
